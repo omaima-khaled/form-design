@@ -1,0 +1,155 @@
+<html>
+
+<head></head>
+
+<body>
+    <!-- big form -->
+    <form>
+        <!-- bigbox for big form and caption -->
+        <fieldset style="background-color:#734226;">
+            <legend style="background-color:#BF926B;">personal data</legend>
+            <br>
+            <!-- smallbox around 2 inputs -->
+            <fieldset style="background-color: #8C6645">
+                <legend style="background-color:#BF926B;width: 70px; height: 90px; line-height: 5; ">your name
+                </legend>
+
+                <table>
+                    <tr>
+                        <td><label for="fristname">FirstName </label></td>
+                        <td>
+                            <p>:</p>
+                        </td>
+
+                        <td> <input type="text" placeholder="omaima" name="fname" id="fristname" required>*</td>
+                    </tr>
+
+                    <tr>
+                        <td> <label for="lastname">LastName </label></td>
+                        <td>
+                            <p>:</p>
+                        </td>
+                        <td> <input type="text" placeholder="khaled" name="lname" id="lastname" required>*</td>
+                    </tr>
+
+                </table>
+            </fieldset>
+            <br>
+            <!-- content for table with 4 inputs and lables -->
+            <table>
+                <tr>
+                    <td><label for="uphone">Yourphone </label></td>
+                    <td>
+                        <p>:</p>
+                    </td>
+                    <td><input type="number" name="username" id="uphone"></td>
+
+                </tr>
+                <tr>
+                    <td><label for="uemail">Your email </label></td>
+                    <td>
+                        <p>:</p>
+                    </td>
+                    <td><input type="email" name="usermail" id="uemail"></td>
+                </tr>
+                <tr>
+                    <td><label for="upassword">YourPassword </label></td>
+                    <td>
+                        <p>:</p>
+                    </td>
+                    <td><input type="password" name="userpass" id="upassword"></td>
+                <tr>
+                    <td> <label for="urepassword">RePassword </label></td>
+                    <td>
+                        <p>:</p>
+                    </td>
+                    <td> <input type="password" name="usererpass" id="urepassword"></td>
+                </tr>
+            </table>
+            <!-- RADIO BUTTON -->
+            <TAble>
+                <tr>
+                    <td><input type="radio" name="usergender" value="male"></td>
+                    <td><label>male</label></td>
+                </tr>
+                <tr>
+
+                    <td> <input type="radio" name="usergender" value="female"></td>
+                    <td><label>female</label></td>
+                </tr>
+            </TAble>
+            <br>
+            <!-- cHECKBOX-->
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="userstatus" value="student"></td>
+                    <td><label>student</label></td>
+                </tr>
+                <tr>
+                    <td> <input type="checkbox" name="userstatus" value="graduate"></td>
+                    <td><label>graduate</label></td>
+
+                </tr>
+            </table>
+            <br>
+            <!-- SELECTION AND OBTGROUP-->
+            <select name="user country">
+                <optgroup label="Cairo">
+                    <option value="ain shams"> new cairo</option>
+                    <option value="elrehab">elrehab</option>
+                    <option value="elshorok">elshorouk</option>
+                    <option value="madint nasr">madintnasr</option>
+                </optgroup>
+                <optgroup label="menofia">
+                    <option value="shebin">shebin</option>
+                    <option value="berkt elsab3">berkt elsab3</option>
+                    <option value="elshohadaa">elshohadaa</option>
+                    <option value="elbagor">elbagor</option>
+                </optgroup>
+            </select>
+            <br> <br>
+            <!-- text areausercomment-->
+            <label for="usercoment">Write your comment</label>
+            <br>
+            <textarea name="ucomment" id="" cols="30" rows="10"></textarea>
+            <br> <br>
+            <!--browse photo-->
+            <label for="userphoto">Browse your photo</label>
+            <input type="file" name="userphoto" id="userphoto" accept="image/*">
+            <br> <br>
+            <!--range-->
+            <label for="userfeedback">feedback</label>
+            <input type="range" min="0" max="10" id="userfeedback">
+            <br><br>
+            <!--tel input-->
+            <input type="tel" name="user telephone" placeholder="enter your phone">
+            <br><br>
+            <!--url input-->
+            <input type="url" name="userurl" placeholder="enter url" >
+            <br><br>
+            <!--serarch-->
+            <input type="search" name="userserch" placeholder="search" disabled>
+            <br><br>
+            <table>
+                <tr>
+                    <td>
+                        <!--reset button-->
+                        <button type="reset" style="width: 100; height: 47;">reset</button>
+                    </td>
+                    <td>
+                        <!-- BUTTON WITH IMAGE-->
+                        <button type="submit">
+                            <img src="pic.jpg" alt="submit button">
+
+
+                        </button>
+                    </td>
+                </tr>
+            </table>
+
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
